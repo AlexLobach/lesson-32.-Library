@@ -6,7 +6,7 @@
     {% for book in books %}
     <div class="col-md-4">
         <div class="card mb-2">
-            <img class="card-img-top" src="{% static 'book.image' %}" alt="Нет картинки">
+            <img class="card-img-top" src="{{ book.image.url }}" alt="Нет картинки">
             <div class="card-body">
                 <h5 class="card-title">{{ book.title }}</h5>
                 <h5 class="card-title">{{ book.author }}</h5>
