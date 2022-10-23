@@ -13,7 +13,7 @@ def books_index(request):
 
 
 def book_detail(request, pk):
-    book = Book.objects.all(pk=pk)
+    book = Book.objects.get(pk=pk)
     context = {
         'book': book
     }

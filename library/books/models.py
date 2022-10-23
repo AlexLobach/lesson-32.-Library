@@ -7,4 +7,4 @@ class Book(models.Model):
     title = models.CharField(max_length=100)
     author = models.CharField(max_length=100)
     description = models.TextField()
-    image = models.FileField(upload_to='library/static/img')
+    image = models.FileField(upload_to='books/static/img/')
