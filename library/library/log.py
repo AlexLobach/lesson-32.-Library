@@ -1,1 +1,0 @@
-SECRET_ = 'django-insecure-p(#=%x)c#)u3v6#!9la0e#-qnovhk)*+trf-c(l-p-w#^d#!d^'
